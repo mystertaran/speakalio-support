@@ -15,10 +15,10 @@ echo $email_heading . "\n\n";
 
 echo "****************************************************\n\n";
 
-printf( __( "W załączniku przesyłamy fakturę do zamówienia %s.", 'woocommerce-wfirma' ) , $order->get_order_number() ) . "\n\n";
+printf( __( "Please find attached an invoice for your order %s.", 'woocommerce-wfirma' ) , $order->get_order_number() ) . "\n\n";
 
 if ( isset( $download_url ) ) {
-	printf( __( 'Rachunek do zamówienia: %s', 'woocommerce-wfirma' ), $download_url ) . "\n\n";
+	printf( __( 'Bill for order: %s', 'woocommerce-wfirma' ), $download_url ) . "\n\n";
 }
 
 echo __( 'Order #', 'woocommerce' ) . $order->get_order_number() . ' ' ;

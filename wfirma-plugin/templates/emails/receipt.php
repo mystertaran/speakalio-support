@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 <b><?php printf( __('Please find attached an invoice for your order %s.', 'woocommerce-wfirma'), $order->get_order_number() ); ?></b><br/><br/>
 <?php
 if( isset( $download_url ) ) {
-	printf( __('Paragon do zamówienia: <a href="%s"><b>Pobierz PDF.</b></a>', 'woocommerce-wfirma'), $download_url );
+	printf( __('Receipt for order: <a href=\"%s\"><b>Download PDF.</b></a>', 'woocommerce-wfirma'), $download_url );
 	echo '<br/><br/>';
 } ?>
 <h2><?php echo __( 'Order #', 'woocommerce' ) . $order->get_order_number(); ?> (<?php printf( '<time datetime="%s">%s</time>', date_i18n( 'c', strtotime( $order->get_date_created() ) ), date_i18n( wc_date_format(), strtotime( $order->get_date_created() ) ) ); ?>)</h2>

@@ -1375,7 +1375,7 @@ msgid "Invoice for order: %s"
 msgstr ""
 
 #: templates/emails/plain/rachunek.php:21
-msgid "Rachunek do zamówienia: %s"
+msgid "Bill for order: %s"
 msgstr ""
 
 #: templates/emails/plain/receipt.php:21
@@ -1383,7 +1383,7 @@ msgid "Receipt for order: %s"
 msgstr ""
 
 #: templates/emails/rachunek.php:17
-msgid "Rachunek do zamówienia: <a href=\"%s\"><b>Pobierz PDF.</b></a>"
+msgid "Bill for order: <a href=\"%s\"><b>Download PDF.</b></a>"
 msgstr ""
 
 #: templates/emails/receipt.php:17

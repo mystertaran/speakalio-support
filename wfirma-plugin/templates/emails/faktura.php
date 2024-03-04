@@ -11,10 +11,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 
 <?php do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
-<b><?php printf( __('W załączniku przesyłamy fakturę do zamówienia %s.', 'woocommerce-wfirma'), $order->get_order_number() ); ?></b><br/><br/>
+<b><?php printf( __('Please find attached an invoice for your order %s.', 'woocommerce-wfirma'), $order->get_order_number() ); ?></b><br/><br/>
 <?php
 if( isset( $download_url ) ) {
-	printf( __('Faktura do zamówienia: <a href="%s"><b>Pobierz PDF.</b></a>', 'woocommerce-wfirma'), $download_url );
+	printf( __('Invoice for order: <a href=\"%s\"><b>Download PDF.</b></a>', 'woocommerce-wfirma'), $download_url );
 	echo '<br/><br/>';
 } ?>
 
