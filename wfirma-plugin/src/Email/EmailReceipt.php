@@ -24,7 +24,7 @@ class WooCommerceWFirmaEmailReceipt extends WooCommerceWFirmaBaseEmail {
 		$this->title          = __( 'Paragon niefiskalny (wFirma)', 'woocommerce-wfirma' );
 		$this->description    = __( 'Email z paragonem.', 'woocommerce-wfirma' );
 		$this->heading        = __( 'Paragon do zamówienia', 'woocommerce-wfirma' );
-		$this->subject        = __( '[{site_title}] Paragon do zamówienia {order_number} - {order_date}', 'woocommerce-wfirma' );
+		$this->subject        = __( '[{site_title}] Receipt for order {order_number} - {order_date}', 'woocommerce-wfirma' );
 		$this->template_html  = 'emails/receipt.php';
 		$this->template_plain = 'emails/plain/receipt.php';
 

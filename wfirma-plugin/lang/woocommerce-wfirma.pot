@@ -1365,7 +1365,7 @@ msgstr ""
 #: templates/emails/plain/rachunek.php:18 
 #: templates/emails/plain/receipt.php:18 templates/emails/rachunek.php:14 
 #: templates/emails/receipt.php:14
-msgid "W załączniku przesyłamy fakturę do zamówienia %s."
+msgid "Please find attached an invoice for your order %s."
 msgstr ""
 
 #: templates/emails/plain/faktura-proforma.php:21 

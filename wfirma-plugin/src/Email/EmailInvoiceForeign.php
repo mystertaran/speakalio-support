@@ -22,8 +22,8 @@ class WooCommerceWFirmaEmailInvoiceForeign extends WooCommerceWFirmaBaseEmail {
 		$this->id             = 'woo_wfirma_faktura_zagraniczna';
 		$this->title          = __( 'Faktura walutowa (wFirma)', 'woocommerce-wfirma' );
 		$this->description    = __( 'Email z fakturą zagraniczną (wFirma).', 'woocommerce-wfirma' );
-		$this->heading        = __( 'Faktura walutowa do zamówienia', 'woocommerce-wfirma' );
-		$this->subject        = __( '[{site_title}] Faktura walutowa do zamówienia {order_number} - {order_date}', 'woocommerce-wfirma' );
+		$this->heading        = __( 'Currency invoice for order', 'woocommerce-wfirma' );
+		$this->subject        = __( '[{site_title}] Currency invoice for order {order_number} - {order_date}', 'woocommerce-wfirma' );
 		$this->template_html  = 'emails/faktura-walutowa.php';
 		$this->template_plain = 'emails/plain/faktura-walutowa.php';
 

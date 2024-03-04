@@ -23,7 +23,7 @@ class WooCommerceWFirmaEmailBill extends WooCommerceWFirmaBaseEmail {
 		$this->id             = 'woo_wfirma_rachunek';
 		$this->title          = __( 'Faktura bez VAT (wFirma)', 'woocommerce-wfirma' );
 		$this->description    = __( 'Email z fakturą.', 'woocommerce-wfirma' );
-		$this->heading        = __( 'Faktura do zamówienia', 'woocommerce-wfirma' );
+		$this->heading        = __( 'Invoice for order', 'woocommerce-wfirma' );
 		$this->subject        = __( '[{site_title}] Invoice for order {order_number} - {order_date}', 'woocommerce-wfirma' );
 		$this->template_html  = 'emails/rachunek.php';
 		$this->template_plain = 'emails/plain/rachunek.php';

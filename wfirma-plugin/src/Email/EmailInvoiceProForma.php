@@ -23,8 +23,8 @@ class WooCommerceWFirmaEmailInvoiceProForma extends WooCommerceWFirmaBaseEmail {
 		$this->id             = 'woo_wfirma_faktura_proforma';
 		$this->title          = __( 'Faktura Pro Forma (wFirma)', 'woocommerce-wfirma' );
 		$this->description    = __( 'Email z fakturą pro forma.', 'woocommerce-wfirma' );
-		$this->heading        = __( 'Faktura Pro Forma do zamówienia', 'woocommerce-wfirma' );
-		$this->subject        = __( '[{site_title}] Faktura Pro Forma do zamówienia {order_number} - {order_date}', 'woocommerce-wfirma' );
+		$this->heading        = __( 'Proforma invoice for order', 'woocommerce-wfirma' );
+		$this->subject        = __( '[{site_title}] Proforma invoice for order {order_number} - {order_date}', 'woocommerce-wfirma' );
 		$this->template_html  = 'emails/faktura-proforma.php';
 		$this->template_plain = 'emails/plain/faktura-proforma.php';
 
